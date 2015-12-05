@@ -1,0 +1,29 @@
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #000;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div#debug {
+	padding: 10px;
+	font: 14pt monospace;
+	white-space: pre-wrap;
+	color: #f0f;
+}

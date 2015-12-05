@@ -1,0 +1,138 @@
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #222;
+	font-family: Helvetica;
+}
+
+div.channels {
+	height: 600px;
+}
+
+div.channels br {
+	clear: both;
+}
+
+div.channels div.channel {
+	float: left;
+	position: relative;
+	width: 100px;
+	height: 600px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+div.channel div.fader {
+	position: absolute;
+	left: 30px;
+	top: 150px;
+	height: 360px;
+	width: 40px;
+	margin: 0 auto;
+	background-color: #600;
+}
+
+div.channel div.fader div.fill {
+	width: 40px;
+	position: absolute;
+	bottom: 0;
+	background-color: #f42;
+}
+
+div.channel div.fader div.overlay {
+	width: 40px;
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	width: 40px;
+	text-align: center;;
+	color: #fff;
+}
+
+div.channel div.knob {
+	position: absolute;
+	left: 10px;
+	top: 520px;
+	margin: 0 auto;
+	width: 80px;
+	height: 20px;
+	background-color: #600;
+}
+
+div.channel div.knob div.fill {
+	height: 20px;
+	background-color: #f42;
+}
+
+div.channel div.knob div.overlay {
+	width: 80px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	color: #fff;
+}
+
+div.channel div.knob2 {
+	position: absolute;
+	left: 10px;
+	top: 550px;
+	margin: 0 auto;
+	width: 80px;
+	height: 20px;
+	background-color: #260;
+}
+
+div.channel div.knob2 div.fill {
+	height: 20px;
+	background-color: #4c2;
+}
+
+div.channel div.knob2 div.overlay {
+	width: 80px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;;
+	color: #fff;
+}
+
+div.channel div.header {
+	padding: 10px;
+	font-size: 10px;
+}
+
+div.channel div.header select {
+	display: block;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 5px;
+	width: 100px;
+}
+
+div.channel div.header b {
+	display: block;
+	color: #fff;
+	padding: 0 0 5px 0;
+}
+
+div.channel div.header i {
+	display: block;
+	color: #ccc;
+	padding: 0 0 5px 0;
+}
+
+div.channel div.state {
+}
+
+div.channel div.config {
+}
+
+
