@@ -21,8 +21,19 @@ canvas {
 	height: 100%;
 }
 
+canvas#full {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	image-rendering: pixelated;
+}
+
 div#debug {
-	padding: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
 	font: 14pt monospace;
 	white-space: pre-wrap;
 	color: #f0f;
