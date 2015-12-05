@@ -56,7 +56,7 @@ io.on('connection', function(socket) {
       Object.keys(data.state).forEach(function(k) {
         var s = data.state[k];
         if (s != laststate[k]) {
-          console.log('state \"' + k + '\" changed to \"' + s + '\"');
+          // console.log('state \"' + k + '\" changed to \"' + s + '\"');
           laststate[k] = s;
           change = true;
         }
@@ -83,7 +83,7 @@ io.on('connection', function(socket) {
       Object.keys(data.state_value).forEach(function(k) {
         var s = data.state_value[k];
         if (s != laststate[k]) {
-          console.log('state \"' + k + '\" changed to \"' + s + '\"');
+          // console.log('state \"' + k + '\" changed to \"' + s + '\"');
           laststate[data.state_id][k] = s;
           change = true;
         }
@@ -113,9 +113,9 @@ setInterval(function(x) {
 
   laststate.t = ms;
 
-  console.log('current state:', laststate);
+  // console.log('current state:', laststate);
   io.emit('state', { state: laststate });
-}, 100);
+}, 10);
 
 app.get('/', function(req, res) {
   res.send('<h1>Hello world</h1>');

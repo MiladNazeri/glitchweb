@@ -11,9 +11,9 @@ var GlitchConfig = function() {
 				midikey1: 36, // C
 				midikey2: 37, // C#
 				midikey3: 37, // C#
-				midicc1: 10,
-				midicc2: 11,
-				midicc3: 12,
+				midicc1: 2,
+				midicc2: 23,
+				midicc3: 14,
 				key1: 'Q',
 				key2: 'A',
 				key3: 'Z',
@@ -23,9 +23,9 @@ var GlitchConfig = function() {
 				midikey1: 38, // D
 				midikey2: 37, // D#
 				midikey3: 37, // D#
-				midicc1: 20,
-				midicc2: 21,
-				midicc3: 22,
+				midicc1: 3,
+				midicc2: 24,
+				midicc3: 15,
 				key1: 'W',
 				key2: 'S',
 				key3: 'X',
@@ -35,9 +35,9 @@ var GlitchConfig = function() {
 				midikey1: 40, // E
 				midikey2: 40, // E
 				midikey3: 40, // E
-				midicc1: 30,
-				midicc2: 31,
-				midicc3: 32,
+				midicc1: 4,
+				midicc2: 25,
+				midicc3: 16,
 				key1: 'E',
 				key2: 'D',
 				key3: 'C',
@@ -47,24 +47,24 @@ var GlitchConfig = function() {
 				midikey1: 41, // F
 				midikey2: 42, // F#
 				midikey3: 42, // F#
-				midicc1: 40,
-				midicc2: 41,
-				midicc3: 42,
+				midicc1: 5,
+				midicc2: 26,
+				midicc3: 17,
 				key1: 'R',
 				key2: 'F',
-				key2: 'V',
+				key3: 'V',
 			},
 			{
 				target: '',
 				midikey1: 43, // F
 				midikey2: 44, // F#
 				midikey3: 44, // F#
-				midicc1: 50,
-				midicc2: 51,
-				midicc3: 52,
+				midicc1: 6,
+				midicc2: 27,
+				midicc3: 18,
 				key1: 'T',
 				key2: 'G',
-				key2: 'B',
+				key3: 'B',
 			}
 		]
 	}
